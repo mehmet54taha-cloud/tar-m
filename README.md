@@ -47,7 +47,7 @@ Playwright, varsayılan olarak `/usr/bin/chromium` kullanır ve 3000 portundaki 
 - Otomatik cihazlar arası eşitleme, kullanıcı hesabı ve sunucuya dosya yükleme yoktur.
 - Tarayıcı verilerini temizlemek verileri siler. “Yedekle ve aktar” ile dosyaları da içeren JSON yedeği alın ve güvenli bir yerde saklayın.
 - Yedek geri yüklemesi mevcut konu ve kartların yerini alır; uygulama önce onay ister.
-- Dosya başına sınır 25 MB'dir. Toplam kapasite tarayıcının depolama kotasına bağlıdır.
+- Dosya başına sınır 100 MB'dir. Toplam kapasite tarayıcının depolama kotasına bağlıdır.
 - Site adresi veya tarayıcı değişince önceki veriler kendiliğinden aktarılmaz; yedekten geri yüklenmelidir.
 
 ## PDF ve kart taslakları
